@@ -1,0 +1,80 @@
+#container{
+  display: flex;
+  justify-content: center;
+  
+  align-items: center;
+}
+#infotable{
+  display: grid;
+}
+.contact{
+  margin-top: 20vh;
+}
+
+.info{
+  text-align: center;
+}
+.icon{
+    widows: 120px;
+    height: 120px;
+}
+#relleno{
+background-color: grey;
+height:5vh;
+margin-top: 3vh;
+margin-bottom: 3vh;
+}
+body{
+background-color: rgba(145, 139, 139, 0.39);
+ padding-left: 2%;
+ padding-right: 2%;
+}
+
+.boton{
+    width:220px;
+    height:220px;
+    background-color:#24a7b1;
+    margin: 2vw;
+    padding:10px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 120px;
+    border-radius: 120px;
+    font-size:10px;
+    line-height:20px;
+    text-transform: uppercase;
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .boton:hover{
+    opacity: 0.50;
+    -moz-opacity: .50;
+    filter:alpha (opacity=50);
+  }
+  .boton a{
+    color:#fff;
+    text-decoration:none;
+    padding:5px 5px 5px 0;
+  }
+
+.baner{
+    background-position: 10%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 30vh;
+    background-image: url("Footbal_Ball_Lawn_542686_3840x2400-1920x1200.jpg");
+}
+
+.body_boton {
+  display: flex;
+  justify-content: center;
+}
+iframe{
+  width: 40vw;
+  height: 40vw;
+}
+
+.botonHome{
+  display: none;
+}
